@@ -56,4 +56,12 @@ public class Book {
         this.isbn = isbn;
         this.numberOfPages = numberOfPages;
     }
+
+    public void printBookInfo() {
+        System.out.println("ID: " + id);
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("ISBN: " + isbn);
+        System.out.println("Number of Pages: " + numberOfPages);
+    }
 }
